@@ -1,0 +1,13 @@
+{
+    "name": "Betaseries schedule magnet finder",
+    "version": "1.0",
+    "permissions": [
+        "http://pirateproxy.ws/search/*"
+    ],
+    "content_scripts": [{
+        "matches": ["http://www.betaseries.com/membre/*/planning"],
+        "js": ["jquery.js", "background.js"],
+        "run_at": "document_end"
+    }],
+    "manifest_version": 2
+}
