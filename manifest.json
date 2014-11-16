@@ -1,5 +1,6 @@
 {
     "name": "Betaseries schedule magnet finder",
+    "description": "Chrome Extension to get magnet link on your Betaseries schedule",
     "version": "1.0",
     "permissions": [
         "http://pirateproxy.ws/search/*"
