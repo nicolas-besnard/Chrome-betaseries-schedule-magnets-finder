@@ -3,7 +3,7 @@
     "description": "Chrome Extension to get magnet link on your Betaseries schedule",
     "version": "1.1",
     "permissions": [
-        "http://pirateproxy.ws/search/*"
+        "https://kat.cr/usearch/*"
     ],
     "content_scripts": [{
         "matches": ["http://www.betaseries.com/membre/*/planning"],
