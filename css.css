@@ -1,0 +1,30 @@
+.hidden-div {
+  width: 450px;
+  border: 1px solid #54709d;
+  color: #54709d;
+  background-color: #c1e1fa;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 11px;
+  line-height: 28px;
+  position: absolute;
+	visibility: hidden;
+	opacity: 0;
+	padding: 0 10px;
+	text-align: left;
+	pointer-events: none;
+	-webkit-transition: visibility 0s, opacity 0s;
+	-moz-transition: visibility 0s, opacity 0s;
+	transition: visibility 0s, opacity 0s;
+  z-index: 99999;
+}
+
+.hidden-div.show-div {
+	margin: 0 0 0 -8em;
+	opacity: 1;
+	visibility: visible;
+	pointer-events: auto;
+	-webkit-transition: visibility 0s, opacity 0.3s;
+	-moz-transition: visibility 0s, opacity 0.3s;
+	transition: visibility 0s, opacity 0.3s;
+}
