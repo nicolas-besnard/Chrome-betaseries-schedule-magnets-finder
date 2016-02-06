@@ -7,6 +7,7 @@
     ],
     "content_scripts": [{
         "matches": ["http://www.betaseries.com/membre/*/planning"],
+        "css": ["css.css"],
         "js": ["jquery.js", "background.js"],
         "run_at": "document_end"
     }],
